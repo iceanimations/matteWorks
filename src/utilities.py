@@ -46,7 +46,7 @@ def materials( meshes = [] ):
             materials are needed
 
         Return Type:
-        A Dictionary --- {mesh:{ Id: ['Material Name']}}
+        A Dictionary --- {mesh:{ Id: ['Material Name', '...', ...]}}
         if material id Attribute is not set, id is None
     '''
     mesh_materials = {}
@@ -65,7 +65,7 @@ def materials_helper( meshNode ):
             materials are needed
 
         Return Type:
-        A Dictionary --- {Id: ['Material Name']}
+        A Dictionary --- {Id: ['Material Name', '...', ...]}
         if material id Attribute is not set, id is None
     '''
     matls = {}
